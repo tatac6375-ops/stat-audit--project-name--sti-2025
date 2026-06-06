@@ -24,7 +24,7 @@
 | B | Muhammad Nafilham Athaya | 1519625041 | Estimation Analyst |
 | C | Daffa  Raditia Nova |  1519625058 | Inference Analyst |
 | D | Muhammad Yunus Setiaji | 1519625043 | Hypothesis Analyst |
-| E | Bintang | [NIM] | Computational Analyst |
+| E | Muhamad Bintang Ramadhan | 1519625031 | Computational Analyst |
 
 
 # Temuan Utama
@@ -59,15 +59,10 @@ stat-audit-moby-sti-2025/
 │
 ├── data/
 │   ├── raw/
-│   │   ├── issues_raw.csv
-│   │   ├── pulls_raw.csv
-│   │   └── releases_raw.csv
+│   │   
 │   │
 │   └── clean/
-│       ├── dataset.csv
-│       ├── issues_clean.csv
-│       ├── weekly_bug_reports.csv
-│       └── pr_merge_dataset.csv
+│    
 │
 ├── src/
 │   ├── estimator.py
