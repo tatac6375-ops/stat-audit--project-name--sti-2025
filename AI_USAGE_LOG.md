@@ -19,8 +19,8 @@
 
 | # | Task | Tool | Prompt (ringkas) | Cara output digunakan |
 |---|---|---|---|---|
-| 1 |  | ChatGPT |  | TBD |
-| 2 |  |  |  | TBD |
+| 1 | Generate API lopp | Claude | Ambil data issues & PR pandas | Ya - disesuaikan |
+| 2 | Pembersihan & pembuatan kolom statistik | Gemini | "Bantu susun ekstraksi data untuk kolom type, is_bug, is_merged, dan duration_days" | Ya - menyelaraskan penamaan variabel dengan kebutuhan analisis kelompok |
 | 3 |  |  |  | TBD |
 | 4 |  |  |  | TBD |
 | 5 |  |  |  | TBD |
