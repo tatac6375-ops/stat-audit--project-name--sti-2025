@@ -55,8 +55,8 @@
 
 | # | Task | Tool | Prompt (ringkas) | Cara output digunakan |
 |---|---|---|---|---|
-| 1 | Coding boilerplate untuk pemanggilan fungsi Z-Test | Gemini | "Meminta kerangka kode Python untuk memanggil fungsi z_test_one_sample dari modul lokal" | Ya -- Variabel disesuaikan dengan data riil n dan x_bar dari repositori Pandas. |
-| 2 | Pembuatan struktur template (scaffolding) laporan | Gemini | "Meminta struktur kosong 6-step procedure uji hipotesis" | Ya -- Mengisi seluruh teks narasi langkah dan kesimpulan secara mandiri tanpa AI. |
+| 1 | Coding boilerplate untuk pemanggilan fungsi Z-Test | Gemini | "Meminta kerangka kode Python untuk memanggil fungsi z_test_one_sample dari modul lokal" | Ya - Variabel disesuaikan dengan data riil n dan x_bar dari repositori Pandas. |
+| 2 | Pembuatan struktur template (scaffolding) laporan | Gemini | "Meminta struktur kosong 6-step procedure uji hipotesis" | Ya - Mengisi seluruh teks narasi langkah dan kesimpulan secara mandiri tanpa AI. |
 | 3 |  |  |  | TBD |
 | 4 |  |  |  | TBD |
 | 5 |  |  |  | TBD |
