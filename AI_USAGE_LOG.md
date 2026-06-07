@@ -5,11 +5,11 @@
 
 | Member | Role | Tools | ~% code AI-assisted | Interpretation cells AI-assisted? |
 |---|---|---|---|---|
-| Tsabita Nuriska R | Data Engineer |  | -% | No |
-| Nafilham | Estimation Analyst |  | -% | No |
-| Daffa | Inference Analyst |  | -% | No |
-| Yunus | Hypothesis Analyst |  | -% | No |
-| Bintang | Computational Analyst |  | -% | No |
+| Tsabita Nuriska Ramadhani | Data Engineer |  | -% | No |
+| Muhammad Nafilham Athaya | Estimation Analyst |  | -% | No |
+| Daffa Raditia Nova | Inference Analyst |  | -% | No |
+| Muhammad Yunus Setiaji | Hypothesis Analyst |  | -% | No |
+| Muhammad Bintang Ramadhan | Computational Analyst |  | -% | No |
 
 ---
 
