@@ -67,9 +67,9 @@
 
 | # | Task | Tool | Prompt | Cara output digunakan |
 |---|---|---|---|---|
-| 1 | Scaffolding struktur class BloomFilter | Claude | Meminta kerangka implementasi Bloom Filter dengan k hash functions menggunakan hashlib | Ya — logika `_get_positions`, pemilihan parameter k dan m, serta konteks dataset disesuaikan secara mandiri  |
-| 2 | Boilerplate loop simulasi Monte Carlo | Claude | Meminta kerangka loop n_trials untuk estimasi probabilitas empiris |  Ya — `event_fn` berbasis `np.random.choice` dari distribusi empiris dan threshold 30 hari dirancang sendiri |
-| 3 |  Scaffolding struktur fungsi MCMC | Claude | Meminta kerangka Metropolis-Hastings untuk knapsack problem | Ya — definisi items dari data bug issues nyata, nilai capacity, dan acceptance criterion disesuaikan sendiri  |
+| 1 | Scaffolding struktur class BloomFilter | Claude | Meminta kerangka implementasi Bloom Filter dengan k hash functions menggunakan hashlib | Ya, logika `_get_positions`, pemilihan parameter k dan m, serta konteks dataset disesuaikan secara mandiri  |
+| 2 | Boilerplate loop simulasi Monte Carlo | Claude | Meminta kerangka loop n_trials untuk estimasi probabilitas empiris |  Ya, `event_fn` berbasis `np.random.choice` dari distribusi empiris dan threshold 30 hari dirancang sendiri |
+| 3 |  Scaffolding struktur fungsi MCMC | Claude | Meminta kerangka Metropolis-Hastings untuk knapsack problem | Ya, definisi items dari data bug issues nyata, nilai capacity, dan acceptance criterion disesuaikan sendiri  |
 | 4 |  |  |  | TBD |
 | 5 |  |  |  | TBD |
 
