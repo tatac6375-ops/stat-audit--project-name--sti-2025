@@ -6,7 +6,7 @@
 | Member | Role | Tools | ~% code AI-assisted | Interpretation cells AI-assisted? |
 |---|---|---|---|---|
 | Tsabita Nuriska Ramadhani | Data Engineer |  | -% | No |
-| Muhammad Nafilham Athaya | Estimation Analyst |  | -% | No |
+| Muhammad Nafilham Athaya | Estimation Analyst | ChatGPT | 40% | No |
 | Daffa Raditia Nova | Inference Analyst | Gemini | 40% | No |
 | Muhammad Yunus Setiaji | Hypothesis Analyst | Gemini | 40% | No |
 | Muhammad Bintang Ramadhan | Computational Analyst | Claude | 40% | No |
