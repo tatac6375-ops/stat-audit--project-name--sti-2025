@@ -32,8 +32,8 @@
 *(Bagian ini akan diisi setelah seluruh analisis selesai dilakukan)*
 
 1. blabla
-2. Analisis MLE dan Beta Posterior menghasilkan estimasi probabilitas keberhasilan Pull Request sebesar 62,1%, menunjukkan bahwa peluang Pull Request untuk di-merge lebih tinggi dibandingkan ditolak.
-3. TBD
+2. Analisis MLE dan Beta Posterior menghasilkan estimasi probabilitas keberhasilan Pull Request sebesar 62,09%, menunjukkan bahwa peluang Pull Request untuk di-merge lebih tinggi dibandingkan ditolak.
+3. Perhitungan 95% Confidence Interval (Frequentist) dan Credible Interval (Bayesian) menunjukkan hasil yang konsisten, di mana probabilitas sebenarnya dari keberhasilan merge sebuah Pull Request berada pada rentang yang sempit, yaitu antara 60,6% hingga 63,6%.
 4. 
 5. Bloom Filter dengan parameter k=5 dan m=10.000 mampu mendeteksi bug report secara efisien dengan FPR teoritis hanya 0,0034%, layak diimplementasikan pada sistem triage otomatis.
 
