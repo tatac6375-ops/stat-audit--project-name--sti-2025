@@ -34,6 +34,8 @@
 1. blabla
 2. TBD
 3. TBD
+4. 
+5. Bloom Filter dengan parameter k=5 dan m=10.000 mampu mendeteksi bug report secara efisien dengan FPR teoritis hanya 0,0034%, layak diimplementasikan pada sistem triage otomatis.
 
 
 # Cara Menjalankan
