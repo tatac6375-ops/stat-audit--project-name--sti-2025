@@ -31,7 +31,7 @@
 
 *(Bagian ini akan diisi setelah seluruh analisis selesai dilakukan)*
 
-1. blabla
+1. Analisis data menunjukkan bahwa komunitas Pandas sangat produktif dengan dominasi kontribusi Pull Request (PR) yang berhasil diterima, sementara arus masuk issue mingguan cenderung stabil meski kerap terganggu oleh lonjakan drastis (outliers) pada periode tertentu. Selain itu, distribusi durasi penyelesaian issue menunjukkan pola right-skewed yang ekstrem, di mana sebagian besar laporan diselesaikan dengan cepat namun menyisakan segelintir backlog bug pelik yang memerlukan waktu penanganan sangat lama.
 2. Analisis MLE dan Beta Posterior menghasilkan estimasi probabilitas keberhasilan Pull Request sebesar 62,09%, menunjukkan bahwa peluang Pull Request untuk di-merge lebih tinggi dibandingkan ditolak.
 3. Perhitungan 95% Confidence Interval (Frequentist) dan Credible Interval (Bayesian) menunjukkan hasil yang konsisten, di mana probabilitas sebenarnya dari keberhasilan merge sebuah Pull Request berada pada rentang yang sempit, yaitu antara 60,6% hingga 63,6%.
 4. Uji hipotesis (Z-Test) menunjukkan bahwa rata-rata issue mingguan pasca-major release meningkat secara signifikan dari baseline historis 25 menjadi 28,45 issue/minggu (P-value = 0,0060), mengonifikasi adanya lonjakan beban kerja penanganan bug yang memerlukan pengetatan fase automated testing.
