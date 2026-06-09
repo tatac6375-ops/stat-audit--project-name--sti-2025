@@ -12,7 +12,7 @@
 |---|---|---|---|
 | RQ1 | Berapa probabilitas Pull Request di pandas-dev/pandas berhasil di-merge? | Bernoulli MLE + CI | `02` + `03` |
 | RQ2 | Apakah rata-rata jumlah issue mingguan berubah signifikan setelah major release tertentu? | Poisson MLE + Z-Test | `02` + `04` |
-| RQ3 | Berapa probabilitas issue membutuhkan lebih dari 30 hari untuk ditutup? | Monte Carlo Simulation | `05` |
+| RQ3 | Berapa probabilitas issue membutuhkan lebih dari 30 hari untuk ditutup? | Monte Carlo Simulation | P(issue > 30 hari) = 0,6677 (66,77%) - Diestimasi melalui simulasi Monte Carlo 50.000 trial. Sekitar 2 dari 3 issues di pandas-dev/pandas membutuhkan lebih dari 30 hari untuk ditutup. |
 
 
 
@@ -24,7 +24,7 @@
 | B | Muhammad Nafilham Athaya | 1519625041 | Estimation Analyst |
 | C | Daffa  Raditia Nova |  1519625058 | Inference Analyst |
 | D | Muhammad Yunus Setiaji | 1519625043 | Hypothesis Analyst |
-| E | Bintang | [NIM] | Computational Analyst |
+| E | Muhamad Bintang Ramadhan | 1519625031 | Computational Analyst |
 
 
 # Temuan Utama
@@ -34,6 +34,8 @@
 1. blabla
 2. TBD
 3. TBD
+4. 
+5. Bloom Filter dengan parameter k=5 dan m=10.000 mampu mendeteksi bug report secara efisien dengan FPR teoritis hanya 0,0034%, layak diimplementasikan pada sistem triage otomatis.
 
 
 # Cara Menjalankan
@@ -59,15 +61,10 @@ stat-audit-moby-sti-2025/
 │
 ├── data/
 │   ├── raw/
-│   │   ├── issues_raw.csv
-│   │   ├── pulls_raw.csv
-│   │   └── releases_raw.csv
+│   │   
 │   │
 │   └── clean/
-│       ├── dataset.csv
-│       ├── issues_clean.csv
-│       ├── weekly_bug_reports.csv
-│       └── pr_merge_dataset.csv
+│    
 │
 ├── src/
 │   ├── estimator.py
