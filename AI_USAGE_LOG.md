@@ -9,7 +9,7 @@
 | Muhammad Nafilham Athaya | Estimation Analyst |  | -% | No |
 | Daffa Raditia Nova | Inference Analyst |  | -% | No |
 | Muhammad Yunus Setiaji | Hypothesis Analyst |  | -% | No |
-| Muhammad Bintang Ramadhan | Computational Analyst |  | -% | No |
+| Muhammad Bintang Ramadhan | Computational Analyst | Claude | 40% | No |
 
 ---
 
