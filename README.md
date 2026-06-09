@@ -11,7 +11,7 @@
 | ID | Pertanyaan | Teknik Statistik | Notebook |
 |---|---|---|---|
 | RQ1 | Berapa probabilitas Pull Request di pandas-dev/pandas berhasil di-merge? | Bernoulli MLE + CI | `02` + `03` |
-| RQ2 | Apakah rata-rata jumlah issue mingguan berubah signifikan setelah major release tertentu? | Poisson MLE + Z-Test | `02` + `04` |
+| RQ2 | Apakah rata-rata jumlah issue mingguan berubah signifikan setelah major release tertentu? | Poisson MLE + Z-Test | Z-stat = 2,7494, P-Value = 0,0060 (Reject $H_0$). Rata-rata issue mingguan terbukti berubah signifikan (naik dari baseline 25 menjadi 28,45 issue/minggu) pasca major release. Kenaikan ini menandakan adanya lonjakan beban kerja penanganan bug bagi maintainer segera setelah peluncuran versi besar. |
 | RQ3 | Berapa probabilitas issue membutuhkan lebih dari 30 hari untuk ditutup? | Monte Carlo Simulation | P(issue > 30 hari) = 0,6677 (66,77%) - Diestimasi melalui simulasi Monte Carlo 50.000 trial. Sekitar 2 dari 3 issues di pandas-dev/pandas membutuhkan lebih dari 30 hari untuk ditutup. |
 
 
@@ -34,7 +34,7 @@
 1. blabla
 2. Analisis MLE dan Beta Posterior menghasilkan estimasi probabilitas keberhasilan Pull Request sebesar 62,09%, menunjukkan bahwa peluang Pull Request untuk di-merge lebih tinggi dibandingkan ditolak.
 3. Perhitungan 95% Confidence Interval (Frequentist) dan Credible Interval (Bayesian) menunjukkan hasil yang konsisten, di mana probabilitas sebenarnya dari keberhasilan merge sebuah Pull Request berada pada rentang yang sempit, yaitu antara 60,6% hingga 63,6%.
-4. 
+4. Uji hipotesis (Z-Test) menunjukkan bahwa rata-rata issue mingguan pasca-major release meningkat secara signifikan dari baseline historis 25 menjadi 28,45 issue/minggu (P-value = 0,0060), mengonifikasi adanya lonjakan beban kerja penanganan bug yang memerlukan pengetatan fase automated testing.
 5. Bloom Filter dengan parameter k=5 dan m=10.000 mampu mendeteksi bug report secara efisien dengan FPR teoritis hanya 0,0034%, layak diimplementasikan pada sistem triage otomatis.
 
 
