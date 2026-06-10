@@ -65,12 +65,3 @@
 ---
 ## Group Reflection: AI Usage Journey
 
-**1. How did your group's use of AI evolve over three weeks?**
-
-**2. What did AI handle well?**
-
-
-**3. Where did output need significant correction?**
-
-
-**4. Was there a moment you chose not to use AI — and why?**
