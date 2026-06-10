@@ -33,9 +33,7 @@
 |---|---|---|---|---|
 | 1 | Bantu nyusun estimator module  | ChatGPT | Membantu menyusun struktur fungsi MLE Bernoulli, Beta posterior, dan likelihood visualization pada phyton module | Ya - disesuaikan kembali dengan formula Tsun (2020) dan requirement project |
 | 2 | Debugging Import sama notebook integration | ChatGPT | Bantuin debugging import src.estimator, kernel notebook, dan visualisasi likelihood | Ya - penyesuaian path, variabel, dan interpretasi dilakukan manual |
-| 3 | Rapihin Visualisasi Likelihood | ChatGPT | Ngasih saran ngerapihin tampilan grafik Likelihood function | Ya - label, garis estimator, dan interpretasi diperbaiki ulang secara manual |
-| 4 |   |   |   | TBD |
-| 5 |   |   |   | TBD |
+| 3 | Rapihin Visualisasi Likelihood | ChatGPT | Ngasih saran ngerapihin tampilan grafik Likelihood function | Ya - label, garis estimator, dan interpretasi diperbaiki ulang secara manual
 
 ---
 
