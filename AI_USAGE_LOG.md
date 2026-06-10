@@ -65,3 +65,8 @@
 ---
 ## Group Reflection: AI Usage Journey
 
+Selama tiga minggu pengerjaan proyek audit statistik ini, penggunaan AI dalam kelompok kami digunakan untuk hal teknis sebagai pemanfaatan strategis. Pada minggu pertama, AI banyak membantu kami menyusun boilerplate kode untuk pengambilan data melalui API dan struktur dasar plotting. Memasuki minggu kedua dan ketiga, penggunaan AI kami bergeser menjadi lebih spesifik sebagai asisten debugging untuk memperbaiki syntax error dan menyediakan scaffolding untuk fungsi-fungsi kompleks seperti Bloom Filter dan algoritma MCMC.
+
+AI dipakai untuk membantu tugas repetitif yang memakan waktu, seperti pembersihan dataset dan penataan format variabel agar konsisten di seluruh notebook. Namun, output AI juga kami lihat untuk menayamakan output dengan data yang ada.
+
+Momen krusial pada analisis kami itu memilih untuk tidak menggunakan AI adalah saat merumuskan hipotesis, menarik kesimpulan akhir, dan menyusun rekomendasi kebijakan. Kami ingin memastikan bahwa solusi yang ditawarkan hasil diskusi kelompok setelah, melihat pola data.
