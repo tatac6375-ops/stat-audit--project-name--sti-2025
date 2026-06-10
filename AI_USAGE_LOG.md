@@ -60,3 +60,17 @@
 | 1 | Scaffolding struktur class BloomFilter | Claude | Meminta kerangka implementasi Bloom Filter dengan k hash functions menggunakan hashlib | Ya, logika `_get_positions`, pemilihan parameter k dan m, serta konteks dataset disesuaikan secara mandiri  |
 | 2 | Boilerplate loop simulasi Monte Carlo | Claude | Meminta kerangka loop n_trials untuk estimasi probabilitas empiris |  Ya, `event_fn` berbasis `np.random.choice` dari distribusi empiris dan threshold 30 hari dirancang sendiri |
 | 3 |  Scaffolding struktur fungsi MCMC | Claude | Meminta kerangka Metropolis-Hastings untuk knapsack problem | Ya, definisi items dari data bug issues nyata, nilai capacity, dan acceptance criterion disesuaikan sendiri  |
+
+
+---
+## Group Reflection: AI Usage Journey
+
+**1. How did your group's use of AI evolve over three weeks?**
+
+**2. What did AI handle well?**
+
+
+**3. Where did output need significant correction?**
+
+
+**4. Was there a moment you chose not to use AI — and why?**
