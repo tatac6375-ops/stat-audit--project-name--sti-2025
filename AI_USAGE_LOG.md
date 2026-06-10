@@ -72,8 +72,3 @@
 | 3 |  Scaffolding struktur fungsi MCMC | Claude | Meminta kerangka Metropolis-Hastings untuk knapsack problem | Ya, definisi items dari data bug issues nyata, nilai capacity, dan acceptance criterion disesuaikan sendiri  |
 | 4 |  |  |  | TBD |
 | 5 |  |  |  | TBD |
-
----
-
-# Group Reflection (150–300 words)
-his section will be completed collectively by all team members after the statistical audit project is finalized.
